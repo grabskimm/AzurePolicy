@@ -11,7 +11,7 @@
     "type": "AADSSHLoginForLinux",
     "typeHandlerVersion": "1.0",
     "autoUpgradeMinorVersion": true,
-    "enableAutomaticUpgrade": true, 
+    "enableAutomaticUpgrade": true,
     "settings": {},
     "protectedSettings": {}
   }
