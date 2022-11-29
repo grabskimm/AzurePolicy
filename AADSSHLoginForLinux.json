@@ -7,9 +7,9 @@
     "[concat('Microsoft.Compute/virtualMachines/', parameters('VMName'))]"
   ],
   "properties": {
-    "publisher": "Microsoft.Azure.Extensions",
-    "type": "CustomScript",
-    "typeHandlerVersion": "2.0",
+    "publisher": "Microsoft.Azure.ActiveDirectory",
+    "type": "AADSSHLoginForLinux",
+    "typeHandlerVersion": "1.0",
     "autoUpgradeMinorVersion": true,
     "enableAutomaticUpgrade": true, 
     "settings": {},
