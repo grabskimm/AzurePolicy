@@ -191,7 +191,7 @@
               "/providers/microsoft.authorization/roleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c"
             ],
             "type": "Microsoft.Compute/virtualMachines/extensions",
-            "name": "AADSSHLogin",
+            "name": "AADSSHLoginForLinux",
             "existenceCondition": {
               "allOf": [
                 {
@@ -233,7 +233,7 @@
                   "resources": [
                     {
                       "apiVersion": "2019-07-01",
-                      "name": "[concat(parameters('vmName'), '/AADSSHLogin')]",
+                      "name": "[concat(parameters('vmName'), '/AADSSHLoginForLinux')]",
                       "type": "Microsoft.Compute/virtualMachines/extensions",
                       "location": "[parameters('location')]",
                       "properties": {
